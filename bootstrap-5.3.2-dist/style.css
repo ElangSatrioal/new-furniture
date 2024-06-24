@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+  background-color: #efeded;
+}
+
+.navbar-scrolled {
+  background-color: rgba(245, 245, 245, 0.8);
+  backdrop-filter: blur(4px);
+}
+
+.navbar {
+  transition: background-color 0.5s;
+}
+
+/* Tablet */
+@media (max-width: 750px) {
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
